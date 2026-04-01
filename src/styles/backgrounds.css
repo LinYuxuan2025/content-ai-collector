@@ -1,0 +1,80 @@
+/* Mucha Style Backgrounds Collection */
+
+/* Background 1: Classic Sepia Floral */
+.bg-floral-1 {
+  background-color: #F9F5EE;
+  background-image:
+    radial-gradient(ellipse at 15% 20%, rgba(201, 168, 92, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 80%, rgba(155, 138, 166, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(139, 154, 125, 0.08) 0%, transparent 70%),
+    url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M60 10 Q70 30 60 50 Q50 30 60 10' fill='none' stroke='%23C9A85C' stroke-width='0.5' opacity='0.3'/%3E%3Cpath d='M30 60 Q50 70 70 60 Q50 50 30 60' fill='none' stroke='%23C9A85C' stroke-width='0.5' opacity='0.3'/%3E%3Ccircle cx='60' cy='60' r='40' fill='none' stroke='%23C9A85C' stroke-width='0.3' opacity='0.2'/%3E%3C/svg%3E");
+  background-size: auto, auto, auto, 120px 120px;
+}
+
+/* Background 2: Ivory with Gold Accents */
+.bg-ivory-gold {
+  background-color: #FAF7F0;
+  background-image:
+    linear-gradient(135deg, rgba(201, 168, 92, 0.05) 0%, transparent 50%),
+    linear-gradient(225deg, rgba(155, 138, 166, 0.05) 0%, transparent 50%),
+    url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cpattern id='flowers' x='0' y='0' width='100' height='100' patternUnits='userSpaceOnUse'%3E%3Ccircle cx='50' cy='50' r='1.5' fill='%23C9A85C' opacity='0.2'/%3E%3Ccircle cx='25' cy='25' r='1' fill='%23C9A85C' opacity='0.15'/%3E%3Ccircle cx='75' cy='75' r='1' fill='%23C9A85C' opacity='0.15'/%3E%3Ccircle cx='25' cy='75' r='1' fill='%23C9A85C' opacity='0.1'/%3E%3Ccircle cx='75' cy='25' r='1' fill='%23C9A85C' opacity='0.1'/%3E%3Cpath d='M50 30 Q55 40 50 50 Q45 40 50 30' fill='none' stroke='%23C9A85C' stroke-width='0.5' opacity='0.2'/%3E%3Cpath d='M30 50 Q40 55 50 50 Q40 45 30 50' fill='none' stroke='%23C9A85C' stroke-width='0.5' opacity='0.2'/%3E%3C/svg%3E%3C/defs%3E%3Crect width='100' height='100' fill='url(%23flowers)'/%3E%3C/svg%3E");
+  background-size: 100% 100%, 100% 100%, 100px 100px;
+}
+
+/* Background 3: Parchment with Laurel Wreath */
+.bg-parchment {
+  background-color: #F5F0E6;
+  background-image:
+    url("data:image/svg+xml,%3Csvg width='400' height='400' viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.15'%3E%3Cpath d='M50 350 Q100 300 150 320 Q200 340 200 280 Q200 220 150 200 Q100 180 80 220 Q60 260 80 300' fill='none' stroke='%238B9A7D' stroke-width='2'/%3E%3Cpath d='M350 350 Q300 300 250 320 Q200 340 200 280 Q200 220 250 200 Q300 180 320 220 Q340 260 320 300' fill='none' stroke='%238B9A7D' stroke-width='2'/%3E%3C/svg%3E"),
+    radial-gradient(ellipse at 50% 30%, rgba(201, 168, 92, 0.1) 0%, transparent 60%);
+  background-size: 400px 400px, 100% 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+/* Background 4: Rose and Gold */
+.bg-rose-gold {
+  background-color: #FDF9F5;
+  background-image:
+    radial-gradient(ellipse at 20% 80%, rgba(184, 92, 92, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(201, 168, 92, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(155, 138, 166, 0.05) 0%, transparent 70%),
+    url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 5 L45 20 L60 20 L48 30 L52 45 L40 36 L28 45 L32 30 L20 20 L35 20 Z' fill='none' stroke='%23C9A85C' stroke-width='0.5' opacity='0.15'/%3E%3C/svg%3E");
+  background-size: 100% 100%, 100% 100%, 100% 100%, 80px 80px;
+}
+
+/* Background 5: Lavender Mist */
+.bg-lavender {
+  background-color: #FAF8F5;
+  background-image:
+    radial-gradient(ellipse at 30% 70%, rgba(155, 138, 166, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 30%, rgba(201, 168, 92, 0.08) 0%, transparent 50%),
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='30' cy='30' r='0.5' fill='%239B8AA6' opacity='0.3'/%3E%3Ccircle cx='15' cy='15' r='0.5' fill='%239B8AA6' opacity='0.2'/%3E%3Ccircle cx='45' cy='45' r='0.5' fill='%239B8AA6' opacity='0.2'/%3E%3Cpath d='M30 10 Q35 20 30 30 Q25 20 30 10' fill='none' stroke='%239B8AA6' stroke-width='0.3' opacity='0.2'/%3E%3Cpath d='M30 30 Q35 40 30 50 Q25 40 30 30' fill='none' stroke='%239B8AA6' stroke-width='0.3' opacity='0.2'/%3E%3C/svg%3E");
+  background-size: 100% 100%, 100% 100%, 60px 60px;
+}
+
+/* Background 6: Classic Cream */
+.bg-cream {
+  background-color: #FDFBF7;
+  background-image:
+    radial-gradient(ellipse at 25% 25%, rgba(201, 168, 92, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 75% 75%, rgba(139, 154, 125, 0.06) 0%, transparent 50%);
+}
+
+/* Background 7: Warm Sepia */
+.bg-sepia {
+  background-color: #F5EDE0;
+  background-image:
+    radial-gradient(ellipse at 40% 60%, rgba(166, 124, 82, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 60% 40%, rgba(201, 168, 92, 0.08) 0%, transparent 50%),
+    url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 100 Q50 80 100 100 Q150 120 200 100' fill='none' stroke='%23C9A85C' stroke-width='0.5' opacity='0.1'/%3E%3Cpath d='M0 120 Q50 100 100 120 Q150 140 200 120' fill='none' stroke='%23C9A85C' stroke-width='0.5' opacity='0.08'/%3E%3Cpath d='M0 80 Q50 60 100 80 Q150 100 200 80' fill='none' stroke='%23C9A85C' stroke-width='0.5' opacity='0.08'/%3E%3C/svg%3E");
+  background-size: 100% 100%, 100% 100%, 200px 200px;
+}
+
+/* Custom background upload preview */
+.bg-custom {
+  background-color: #F9F5EE;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

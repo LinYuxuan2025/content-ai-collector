@@ -1,0 +1,57 @@
+:root {
+  /* Mucha Style Colors - Art Nouveau */
+  /* Primary palette: warm sepia, gold, olive, burgundy */
+  --bg-primary: #F9F5EE;           /* 象牙白/羊皮纸色 */
+  --bg-secondary: #F3EDE3;       /* 暖米色 */
+  --bg-tertiary: #E8DFD1;        /* 深米色 */
+  --bg-pattern: #FDF9F3;          /* 装饰背景色 */
+
+  --text-primary: #3D3225;       /* 深褐色 */
+  --text-secondary: #6B5D4D;     /* 中褐色 */
+  --text-muted: #9A8B78;         /* 浅褐色 */
+
+  --accent-primary: #C9A85C;     /* 穆夏金 */
+  --accent-secondary: #8B9A7D;   /* 橄榄绿 */
+  --accent-tertiary: #A67C52;    /* 古铜色 */
+  --accent-floral: #B85C5C;      /* 罂粟红/勃艮第红 */
+  --accent-lavender: #9B8AA6;     /* 薰衣草紫 */
+
+  --border: #D9CFC0;             /* 柔和边框 */
+  --border-dark: #C4B8A8;         /* 深边框 */
+
+  --shadow: rgba(61, 50, 37, 0.08);
+  --shadow-hover: rgba(61, 50, 37, 0.15);
+  --shadow-gold: rgba(201, 168, 92, 0.3);
+
+  --error: #B85C5C;
+  --success: #7A9A6B;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* Typography - Mucha used decorative serifs */
+  --font-serif: "Cormorant Garamond", "Noto Serif SC", "Source Han Serif CN", Georgia, serif;
+  --font-display: "Playfair Display", "Noto Serif SC", Georgia, serif;
+  --font-sans: "Quicksand", "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "Courier Prime", monospace;
+
+  /* Border Radius - Mucha style uses more organic curves */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-floral: 50% 50% 50% 50% / 60% 60% 40% 40%; /* 蛋形/花瓣形 */
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms ease-out;
+
+  /* Layout */
+  --sidebar-width: 240px;
+  --header-height: 72px;
+}
